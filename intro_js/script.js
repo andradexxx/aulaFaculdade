@@ -36,15 +36,15 @@
 // })
 // console.log("Fim do script...")
 
-// function calculoDemorado(n){
-//     let res = 0
-//     for(let i = 1; i <= n; i++)
-//         res += i
-//     return res
-// }
-// const resultado = calculoDemorado(1000)
-// console.log(resultado)
-// console.log("Fim do script...")
+function calculoDemorado(n){
+    let res = 0
+    for(let i = 1; i <= n; i++)
+        res += i
+    return res
+}
+const resultado = calculoDemorado(10)
+console.log(resultado)
+console.log("Fim do script...")
 
 // const fs = require('fs')
 // const abrirArquivo = (nomeArquivo) => {
